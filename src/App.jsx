@@ -1,9 +1,13 @@
+import PeopleData from "./components/PeopleData";
 
 function App() {
   return (
-    <div>
+    <>
+    <div style={{ textAlign: 'center' }}>
     <h1>React Datatable</h1>
     </div>
+    <PeopleData />
+    </>
     
   )
 }
